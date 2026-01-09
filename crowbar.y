@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include "crowbar.h"
 #define YYDEBUG 1
+
+int yylex(void);
+void yyerror(const char *s);
 %}
 %union {
     char                *identifier;

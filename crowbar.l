@@ -1,6 +1,7 @@
 %{
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 #include "DBG.h"
 #include "crowbar.h"
 #include "y.tab.h"
